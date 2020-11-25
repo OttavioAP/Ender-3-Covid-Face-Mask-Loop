@@ -1,0 +1,19 @@
+;loop code start
+G28; home
+G90; Absolute positioning
+
+G0 Z30; GOES UP
+
+G0 X94 F8000 ;MOVE X TO THE CENTER
+
+
+
+G0 Y 230; GOES TO THE BACK
+G0 Z 2; GOES DOWN
+G0 Y 2; SCOOP
+G0 Y 230; RETRACT
+G28; home
+G90; Absolute positioning
+
+;loop code end
+
